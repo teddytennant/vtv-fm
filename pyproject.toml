@@ -1,0 +1,10 @@
+[project]
+name = "vtv-fm"
+version = "0.1.0"
+description = "Tiny VTV-FM slice: min-acceleration cubic, terminal-velocity cost, Sinkhorn pairing, velocity Verlet."
+requires-python = ">=3.11"
+dependencies = ["jax", "optax", "numpy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
